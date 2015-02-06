@@ -1,0 +1,37 @@
+{
+    "name": "sofa-hash-service",
+    "version": "0.1.0",
+    "description": "Sofa Web SDK hash service component.",
+    "main": "dist/sofaHashService.js",
+    "homepage": "http://www.sofa.io",
+    "scripts": {
+        "test": "gulp build"
+    },
+    "engines": {
+        "node": ">=0.10.x",
+        "npm": ">=1.2.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sofa/sofa-hash-service"
+    },
+    "keywords": [
+        "sofa",
+        "sofa.io",
+        "web",
+        "sdk",
+        "service"
+    ],
+    "author": "Ingo Blenke <ingo@couchcommerce.com>",
+    "license": "GPL",
+    "bugs": {
+        "url": "https://github.com/sofa/sofa-hash-service/issues"
+    },
+    "dependencies": {
+        "sofa-core": "~0.1.x"
+    },
+    "devDependencies": {
+        "gulp": "^3.8.10",
+        "shared-sofa-component-tasks": "^0.7.1"
+    }
+}
